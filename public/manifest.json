@@ -24,11 +24,11 @@
   "background_color": "#ffffff",
   "protocol_handlers": [
     {
-      "protocol": "tea",
+      "protocol": "web+tea",
       "url": "/tea?type=%s"
     },
     {
-      "protocol": "coffee",
+      "protocol": "web+coffee",
       "url": "/coffee?type=%s"
     }
   ],
