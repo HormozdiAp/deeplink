@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="web+coffee://americano">Americano</a>
+  </body>
+  <script>
+    async function getInstalledApps() {
+      const installedApps = await navigator.getInstalledRelatedApps();
+      console.log(installedApps.length);
+      console.log(installedApps);
+    }
+    getInstalledApps();
+  </script>
+</html>

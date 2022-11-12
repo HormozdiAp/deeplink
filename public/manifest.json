@@ -31,5 +31,11 @@
       "protocol": "web+coffee",
       "url": "/coffee?type=%s"
     }
+  ],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://deeplink-ajk1.onrender.com/manifest.json"
+    }
   ]
 }
